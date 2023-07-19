@@ -1,0 +1,10 @@
+uuid: b6c1ff53-1155-4035-a92b-75b94b333e55
+langcode: sv
+status: true
+dependencies:
+  module:
+    - file
+id: file.token
+label: Ersättningstecken
+targetEntityType: file
+cache: true

@@ -1,0 +1,206 @@
+uuid: dd8fc0ab-8637-4635-9808-3f60caf0770e
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.field.node.produktbanner.body
+    - field.field.node.produktbanner.field_embeded_media
+    - field.field.node.produktbanner.field_media
+    - field.field.node.produktbanner.field_meta
+    - field.field.node.produktbanner.field_produktlank
+    - field.field.node.produktbanner.field_tags
+    - node.type.produktbanner
+  module:
+    - layout_builder
+    - link
+    - metatag
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          7fbfc1d5-2bec-4348-8173-61545f07564c:
+            uuid: 7fbfc1d5-2bec-4348-8173-61545f07564c
+            region: second
+            configuration:
+              id: 'field_block:node:produktbanner:field_produktlank'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          fa857327-a043-4f50-a6f2-39463aeec2a5:
+            uuid: fa857327-a043-4f50-a6f2-39463aeec2a5
+            region: second
+            configuration:
+              id: 'field_block:node:produktbanner:field_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: inline
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          2cdf2580-452a-490f-802f-139959777ed2:
+            uuid: 2cdf2580-452a-490f-802f-139959777ed2
+            region: second
+            configuration:
+              id: 'extra_field_block:node:produktbanner:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 3
+            additional: {  }
+          9922a9df-6aa2-4c0b-b0aa-399617c87d3c:
+            uuid: 9922a9df-6aa2-4c0b-b0aa-399617c87d3c
+            region: first
+            configuration:
+              id: 'field_block:node:produktbanner:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 6
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: pe-4
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          ec261f99-8fb3-42cd-8b7d-c66d243a6359:
+            uuid: ec261f99-8fb3-42cd-8b7d-c66d243a6359
+            region: first
+            configuration:
+              id: 'field_block:node:produktbanner:field_embeded_media'
+              label: 'Embeded media'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 5
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: embeded
+                  class: 'pe-4 mb-2 '
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+        third_party_settings: {  }
+id: node.produktbanner.default
+targetEntityType: node
+bundle: produktbanner
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_embeded_media:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 111
+    region: first
+  field_meta:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_produktlank:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,10 @@
+uuid: 85a68487-a89a-4acb-9ae8-e7b3eb3aba3b
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'HTML vecka'
+locked: true
+pattern: Y-\WW

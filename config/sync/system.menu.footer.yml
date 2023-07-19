@@ -1,0 +1,10 @@
+uuid: f221737a-c1ec-4561-b05c-14155d52a427
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Sidfot
+description: 'Länkar för information om webbplats'
+locked: true

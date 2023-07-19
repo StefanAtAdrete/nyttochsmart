@@ -1,0 +1,8 @@
+uuid: d361d9e1-979f-4a23-acf1-7503e3a2150f
+langcode: sv
+status: true
+dependencies: {  }
+name: Produkter
+vid: produkter
+description: 'Produkter från olika leverantörer'
+weight: 0

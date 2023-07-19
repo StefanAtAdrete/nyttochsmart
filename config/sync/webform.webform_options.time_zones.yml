@@ -1,0 +1,14 @@
+uuid: aadd02a6-fa50-4bf9-8b06-cfc7011dd970
+langcode: sv
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8rVcRXLnTAEoWs7zl8du-7RIUnayqUcGYnvb3JT21-o
+id: time_zones
+label: Tidszoner
+category: 'Datum och tid'
+likert: false
+options: ''

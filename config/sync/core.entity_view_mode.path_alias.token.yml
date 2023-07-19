@@ -1,0 +1,10 @@
+uuid: 7d3e418f-0c64-460c-941a-64904645987a
+langcode: sv
+status: true
+dependencies:
+  module:
+    - path_alias
+id: path_alias.token
+label: Ersättningstecken
+targetEntityType: path_alias
+cache: true

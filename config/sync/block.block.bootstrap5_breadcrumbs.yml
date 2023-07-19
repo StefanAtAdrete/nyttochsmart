@@ -1,0 +1,22 @@
+uuid: e095d995-e1a5-4177-9bac-a6fdce62bbce
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap5
+_core:
+  default_config_hash: VShtwe72J2j41BJzApoNbs8l554EpngM5RTObxM7yiw
+id: bootstrap5_breadcrumbs
+theme: bootstrap5
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Länkstigar
+  label_display: '0'
+  provider: system
+visibility: {  }

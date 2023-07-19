@@ -1,0 +1,88 @@
+uuid: 49dc3657-d14c-4e5d-b461-dd92ec9f2ac2
+langcode: sv
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.full
+    - core.entity_view_mode.media.responsive
+  module:
+    - editor
+    - entity_embed
+    - media
+    - url_embed
+_core:
+  default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
+name: 'Fullständig HTML'
+format: full_html
+weight: 2
+filters:
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 8
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 9
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
+    status: true
+    weight: 11
+    settings: {  }
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: 12
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<drupal-url data-*> <strong> <em> <a href> <ul> <li> <ol> <blockquote> <img src alt data-entity-type data-entity-uuid data-align data-caption> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button data-langcode alt title> <p> <h1> <h2> <h3> <h4> <h5> <h6> <pre> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <u> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_view_modes:
+        default: default
+        full: full
+        responsive: responsive
+      allowed_media_types: {  }
+  url_embed:
+    id: url_embed
+    provider: url_embed
+    status: true
+    weight: 0
+    settings: {  }
+  url_embed_convert_links:
+    id: url_embed_convert_links
+    provider: url_embed
+    status: true
+    weight: 0
+    settings:
+      url_prefix: ''
+  entity_embed:
+    id: entity_embed
+    provider: entity_embed
+    status: true
+    weight: 100
+    settings: {  }

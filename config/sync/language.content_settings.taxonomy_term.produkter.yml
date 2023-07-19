@@ -1,0 +1,16 @@
+uuid: 4cbc186d-0c21-4074-af7b-b7b4744408b7
+langcode: sv
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.produkter
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.produkter
+target_entity_type_id: taxonomy_term
+target_bundle: produkter
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,21 @@
+uuid: ea9f0634-ab3a-4aa4-8f49-3cb97ed077b6
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta
+    - node.type.produktbanner
+  module:
+    - metatag
+id: node.produktbanner.field_meta
+field_name: field_meta
+entity_type: node
+bundle: produktbanner
+label: Meta
+description: 'Individuella metataggar för innehållet'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

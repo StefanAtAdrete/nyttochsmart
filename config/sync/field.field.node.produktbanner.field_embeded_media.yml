@@ -1,0 +1,24 @@
+uuid: 5732e35d-ad1b-4b74-8932-39a2ac53b0d3
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_embeded_media
+    - filter.format.full_html
+    - node.type.produktbanner
+  module:
+    - text
+id: node.produktbanner.field_embeded_media
+field_name: field_embeded_media
+entity_type: node
+bundle: produktbanner
+label: 'Embeded media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

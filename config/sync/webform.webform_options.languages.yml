@@ -1,0 +1,14 @@
+uuid: aa419467-e491-4054-becc-4fb703278253
+langcode: sv
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: mYH14Vi65Ixj10c_GFa7CipxU3D0Bt9wgo8zE8zjOfE
+id: languages
+label: Språk
+category: Language
+likert: false
+options: ''

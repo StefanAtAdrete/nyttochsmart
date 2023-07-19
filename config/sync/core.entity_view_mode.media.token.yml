@@ -1,0 +1,10 @@
+uuid: 98672dde-69ef-47b5-984b-298bcf47c1e5
+langcode: sv
+status: true
+dependencies:
+  module:
+    - media
+id: media.token
+label: Ersättningstecken
+targetEntityType: media
+cache: true

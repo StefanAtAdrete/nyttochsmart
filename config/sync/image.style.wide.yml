@@ -1,0 +1,23 @@
+uuid: f78bf6fb-2a27-4095-9854-1cf465027769
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
+name: wide
+label: 'Bred (1090)'
+effects:
+  09959c15-59ce-4f6d-90df-e2d7cf32bce5:
+    uuid: 09959c15-59ce-4f6d-90df-e2d7cf32bce5
+    id: image_scale
+    weight: 1
+    data:
+      width: 1090
+      height: null
+      upscale: false
+  9bdcc884-5b2d-4755-8669-0a7a5353eb6b:
+    uuid: 9bdcc884-5b2d-4755-8669-0a7a5353eb6b
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

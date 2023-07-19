@@ -1,0 +1,10 @@
+uuid: 4d22edfa-3512-46ca-8827-99e24428270a
+langcode: sv
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Ersättningstecken
+targetEntityType: user
+cache: true

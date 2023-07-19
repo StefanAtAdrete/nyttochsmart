@@ -1,0 +1,11 @@
+uuid: 5b09fc2a-8ed0-46f5-8fb2-b81a5222905c
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.produktbanner
+id: node.produktbanner
+target_entity_type_id: node
+target_bundle: produktbanner
+default_langcode: site_default
+language_alterable: false

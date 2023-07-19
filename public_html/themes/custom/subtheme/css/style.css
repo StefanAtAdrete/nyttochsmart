@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+#widget_pager_bottom_views_slideshow-block_1 {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.card.product img {
+    max-width: 90%;
+}

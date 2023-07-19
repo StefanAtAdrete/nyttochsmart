@@ -1,0 +1,13 @@
+uuid: 771d6814-1bf7-4951-8407-deb7e6e657e3
+langcode: sv
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: lfyE_snmvfg_EQ3VDyhUtGAXgmqtEiqa46I3bTMg8DU
+id: comment_save_action
+label: 'Spara kommentar'
+type: comment
+plugin: 'entity:save_action:comment'
+configuration: {  }

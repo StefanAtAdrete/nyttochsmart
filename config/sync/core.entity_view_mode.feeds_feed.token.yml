@@ -1,0 +1,10 @@
+uuid: fa0ccc04-ed61-4345-85d1-ecbf1c8132a7
+langcode: sv
+status: true
+dependencies:
+  module:
+    - feeds
+id: feeds_feed.token
+label: Ersättningstecken
+targetEntityType: feeds_feed
+cache: true

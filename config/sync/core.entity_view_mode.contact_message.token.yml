@@ -1,0 +1,10 @@
+uuid: c478a7e6-204c-495e-b93d-b93e7af5f006
+langcode: sv
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.token
+label: Ersättningstecken
+targetEntityType: contact_message
+cache: true

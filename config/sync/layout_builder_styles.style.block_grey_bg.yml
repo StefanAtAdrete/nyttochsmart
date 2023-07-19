@@ -1,0 +1,12 @@
+uuid: 266d593d-479d-4723-b759-fccb5e772405
+langcode: sv
+status: true
+dependencies: {  }
+id: block_grey_bg
+label: 'Block grey bg'
+classes: blockgrey
+type: component
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

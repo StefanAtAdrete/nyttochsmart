@@ -1,0 +1,53 @@
+uuid: 1251a3d6-40f4-444f-9283-e85dbd7e55ac
+langcode: sv
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatering
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Format
+        -
+          name: Länkar
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listor
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+            - DrupalMediaLibrary
+        -
+          name: Verktyg
+          items:
+            - Source
+            - node
+            - url
+            - Table
+  plugins: {  }
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

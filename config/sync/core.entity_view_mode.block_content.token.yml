@@ -1,0 +1,10 @@
+uuid: d502f6b5-e0a8-4d15-a1b8-8df6801f0e9d
+langcode: sv
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.token
+label: Ersättningstecken
+targetEntityType: block_content
+cache: true

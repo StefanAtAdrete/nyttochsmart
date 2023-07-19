@@ -1,0 +1,10 @@
+uuid: 7fb2a8e5-e408-4c0b-87a8-cd6f0611cf99
+langcode: sv
+status: true
+dependencies:
+  module:
+    - block
+id: block.token
+label: Ersättningstecken
+targetEntityType: block
+cache: true

@@ -1,0 +1,21 @@
+uuid: 918ddd56-417e-4a6a-8cd9-2b58540b6a19
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta
+    - node.type.article
+  module:
+    - metatag
+id: node.article.field_meta
+field_name: field_meta
+entity_type: node
+bundle: article
+label: Meta
+description: 'Individuella metataggar för innehållet'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

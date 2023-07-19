@@ -1,0 +1,9 @@
+uuid: 384ff9a8-c18c-4329-b9a2-68c03d796d8d
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WkgxA4yi56P0DziDKST6vf2VQsRuyMo3hMTDpJTbZuA
+id: blb_col_10
+label: 'Bootstrap 10 Cols'
+number_of_columns: 10

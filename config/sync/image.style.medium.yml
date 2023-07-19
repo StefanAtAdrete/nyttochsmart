@@ -1,0 +1,23 @@
+uuid: 023e79f0-ceae-41f5-a3ad-54ac9294d88e
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
+name: medium
+label: 'Mellan (220×220)'
+effects:
+  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+    id: image_scale
+    weight: 0
+    data:
+      width: 220
+      height: 220
+      upscale: false
+  3e885af2-b307-4559-a714-a5babc909b5d:
+    uuid: 3e885af2-b307-4559-a714-a5babc909b5d
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

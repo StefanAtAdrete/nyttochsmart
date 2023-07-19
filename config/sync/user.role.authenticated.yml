@@ -1,0 +1,36 @@
+uuid: 52dd8479-1112-4c21-a622-5b9c9a471f60
+langcode: sv
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+  module:
+    - comment
+    - contact
+    - eu_cookie_compliance
+    - file
+    - filter
+    - media
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Inloggad användare'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'delete own files'
+  - 'display eu cookie compliance popup'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view media'

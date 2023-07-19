@@ -1,0 +1,17 @@
+uuid: 70a7f532-8cbe-4f19-b13d-246d9e51b1ca
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J2n0RpFzS0-bgSyxjs6rSdgxB1rb-bTAgqywNx_964M
+name: large
+label: 'Stor (480×480)'
+effects:
+  ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
+    uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
+    id: image_scale
+    weight: 0
+    data:
+      width: 480
+      height: 480
+      upscale: false

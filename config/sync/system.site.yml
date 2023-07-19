@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: sv
+uuid: dd077691-4523-4f64-ac14-54b8e2243e20
+name: 'Nytt och smart'
+mail: info@nyttochsmart.se
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /start
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: sv

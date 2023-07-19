@@ -1,0 +1,37 @@
+uuid: f21240ff-92af-4ae8-808b-f8e7ae0ec233
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.produktbanner
+id: node.produktbanner.field_media
+field_name: field_media
+entity_type: node
+bundle: produktbanner
+label: Media
+description: "Generell artikelmedia som filmer, bilder eller dokument.\r\nAnvänd egna bilder helst. (copyright)"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+      document: document
+      image: image
+      remote_video: remote_video
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: audio
+field_type: entity_reference

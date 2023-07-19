@@ -1,0 +1,122 @@
+uuid: e6ea3cb7-44e9-45f1-a3c4-90312252c265
+langcode: sv
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.produktbanner.body
+    - field.field.node.produktbanner.field_embeded_media
+    - field.field.node.produktbanner.field_media
+    - field.field.node.produktbanner.field_meta
+    - field.field.node.produktbanner.field_produktlank
+    - field.field.node.produktbanner.field_tags
+    - image.style.max_325x325
+    - node.type.produktbanner
+  module:
+    - layout_builder
+    - layout_discovery
+    - media
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          d3ec0f1d-e77e-4b31-8927-3228976e9488:
+            uuid: d3ec0f1d-e77e-4b31-8927-3228976e9488
+            region: second
+            configuration:
+              id: 'field_block:node:produktbanner:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_trimmed
+                label: hidden
+                settings:
+                  trim_length: 120
+                third_party_settings: {  }
+            weight: 0
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+          d3f562e1-51ec-4027-8c2b-b2bd23c89626:
+            uuid: d3f562e1-51ec-4027-8c2b-b2bd23c89626
+            region: first
+            configuration:
+              id: 'field_block:node:produktbanner:field_embeded_media'
+              label: 'Embeded media'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+id: node.produktbanner.teaser
+targetEntityType: node
+bundle: produktbanner
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_media:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: content
+      image_style: max_325x325
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_embeded_media: true
+  field_meta: true
+  field_produktlank: true
+  langcode: true

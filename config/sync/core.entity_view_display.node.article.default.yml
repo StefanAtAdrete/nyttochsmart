@@ -1,0 +1,279 @@
+uuid: 74eb56c7-2112-482a-914a-b60c6aa53b79
+langcode: sv
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_media
+    - field.field.node.article.field_meta
+    - field.field.node.article.field_product_referens
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_term
+    - node.type.article
+    - views.view.produktreferens_dynamisk
+    - views.view.views_slideshow
+  module:
+    - comment
+    - layout_builder
+    - metatag
+    - text
+    - user
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: '50-50 artikel innehåll'
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          59d0af1c-87ea-497b-b222-47116f540c4f:
+            uuid: 59d0af1c-87ea-497b-b222-47116f540c4f
+            region: first
+            configuration:
+              id: 'field_block:node:article:body'
+              label: Brödtext
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 3
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: 'mb-4 p-4'
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          5166646d-72df-4d3d-a44b-74d0e416674a:
+            uuid: 5166646d-72df-4d3d-a44b-74d0e416674a
+            region: first
+            configuration:
+              id: 'views_block:views_slideshow-block_1'
+              label: ''
+              label_display: '0'
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 2
+            additional: {  }
+          b243ac24-d975-4b4c-bc93-f615fa024a30:
+            uuid: b243ac24-d975-4b4c-bc93-f615fa024a30
+            region: second
+            configuration:
+              id: 'views_block:produktreferens_dynamisk-block_1'
+              label: Produktförslag
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: Produktförslag
+              items_per_page: none
+            weight: 0
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: embeded
+                  class: ps-4
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: w-100
+                  style: ''
+                  data: ''
+          f4090ab1-befa-444e-93df-f072b45de348:
+            uuid: f4090ab1-befa-444e-93df-f072b45de348
+            region: second
+            configuration:
+              id: 'field_block:node:article:field_term'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ps-4
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          7311ceca-a870-40c1-b57b-bf14694ef14f:
+            uuid: 7311ceca-a870-40c1-b57b-bf14694ef14f
+            region: second
+            configuration:
+              id: 'field_block:node:article:field_tags'
+              label: Etiketter
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ps-4
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          57163d6d-5dec-4830-9e6d-c3237e134d70:
+            uuid: 57163d6d-5dec-4830-9e6d-c3237e134d70
+            region: second
+            configuration:
+              id: 'extra_field_block:node:article:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 3
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: embeded
+                  class: ps-4
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+        third_party_settings: {  }
+_core:
+  default_config_hash: 7fb0j9HnIXfP9ndewzgPPzzeX_SV532wuYpkscrCMCk
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  comment:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 111
+    region: first
+  field_meta:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 112
+    region: first
+  field_product_referens:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 113
+    region: first
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_term:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 114
+    region: first
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

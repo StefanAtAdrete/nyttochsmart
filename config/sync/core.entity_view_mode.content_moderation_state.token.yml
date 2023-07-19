@@ -1,0 +1,10 @@
+uuid: 9c327b23-38b2-449b-bffd-f8cffccd87fc
+langcode: sv
+status: true
+dependencies:
+  module:
+    - content_moderation
+id: content_moderation_state.token
+label: Ersättningstecken
+targetEntityType: content_moderation_state
+cache: true

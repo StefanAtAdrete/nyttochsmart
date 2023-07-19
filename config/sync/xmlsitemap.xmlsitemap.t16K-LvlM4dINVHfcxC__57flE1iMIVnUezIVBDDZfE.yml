@@ -1,0 +1,8 @@
+uuid: cf4c9d89-36be-412b-9aa4-20bf74f64556
+langcode: sv
+status: true
+dependencies: {  }
+id: t16K-LvlM4dINVHfcxC__57flE1iMIVnUezIVBDDZfE
+label: 'http://nyttochsmart.lndo.site'
+context:
+  language: sv

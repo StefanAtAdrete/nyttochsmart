@@ -1,0 +1,19 @@
+uuid: 8333559c-453c-4480-8102-b4fa5f268ec4
+langcode: sv
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_produktlank
+field_name: field_produktlank
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+uuid: d7e977a1-d314-405f-bca7-936e730fcadf
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2B9uF8NL5gutNKSdPRAhhAsDWFZZG1PJOBmx0aBGd_0
+id: node_publish_action
+label: 'Publicera innehåll'
+type: node
+plugin: 'entity:publish_action:node'
+configuration: {  }

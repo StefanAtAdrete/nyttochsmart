@@ -1,0 +1,10 @@
+uuid: a49cf867-44d6-4c33-9f4c-b2779612b29d
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7klS5IWXrwzVaPpYZFAs6wcx8U2FF1X73OfrtTsvuvE
+id: fallback
+label: 'Datumformat i reserv'
+locked: true
+pattern: 'D, m/d/Y - H:i'

@@ -1,0 +1,13 @@
+uuid: 6e98c726-bcd3-46b6-b981-ef96bc08d992
+langcode: sv
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: DoVt_VGgVLcDD4XmVbSFzr0K17SJy9imFiYusKkJBgY
+id: taxonomy_term_publish_action
+label: 'Publicera taxonomiterm'
+type: taxonomy_term
+plugin: 'entity:publish_action:taxonomy_term'
+configuration: {  }

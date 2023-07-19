@@ -1,0 +1,10 @@
+uuid: 2228736f-dab1-451c-8311-bc9b15049e30
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Verktyg
+description: 'Länkar för användare som ofta läggs till av moduler'
+locked: true

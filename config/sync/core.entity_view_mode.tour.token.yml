@@ -1,0 +1,10 @@
+uuid: 12ab172f-7b3a-41b3-86f1-a3ea82e4b466
+langcode: sv
+status: true
+dependencies:
+  module:
+    - tour
+id: tour.token
+label: Ersättningstecken
+targetEntityType: tour
+cache: true

@@ -1,0 +1,10 @@
+uuid: 8e8cb355-d545-4d5e-affb-94da5230b423
+langcode: sv
+status: true
+dependencies:
+  module:
+    - feeds_log
+id: feeds_import_log.token
+label: Ersättningstecken
+targetEntityType: feeds_import_log
+cache: true

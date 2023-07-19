@@ -1,0 +1,10 @@
+uuid: add3b67e-fafd-4ffd-8ac3-94dcf0a9c4da
+langcode: sv
+status: true
+dependencies:
+  module:
+    - shortcut
+id: shortcut.token
+label: Ersättningstecken
+targetEntityType: shortcut
+cache: true

@@ -1,0 +1,35 @@
+uuid: a949c28b-3101-47f9-a4f0-974115af4dd1
+langcode: sv
+status: false
+dependencies: {  }
+id: GTM-TD9KT37.64b676f9ca61f8.14315870
+label: GTM-TD9KT37
+weight: 0
+tag_container_ids:
+  - GTM-TD9KT37
+advanced_settings:
+  gtm:
+    data_layer: dataLayer
+    include_classes: false
+    allowlist_classes: ''
+    blocklist_classes: ''
+    include_environment: false
+    environment_id: ''
+    environment_token: ''
+dimensions_metrics:
+  -
+    type: dimension
+    name: ''
+    value: ''
+conditions: {  }
+events:
+  custom: {  }
+  generate_lead:
+    value: ''
+    currency: ''
+  login:
+    method: CMS
+  search: {  }
+  sign_up:
+    method: CMS
+  webform_purchase: {  }

@@ -1,0 +1,10 @@
+uuid: 2b7826cd-37c3-4aa7-9445-0a63e0e9717a
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+id: node.token
+label: Ersättningstecken
+targetEntityType: node
+cache: true

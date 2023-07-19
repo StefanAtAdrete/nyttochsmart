@@ -1,0 +1,10 @@
+uuid: cfc010db-0923-465a-9e19-2959a22d7a82
+langcode: sv
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.token
+label: Ersättningstecken
+targetEntityType: taxonomy_term
+cache: true

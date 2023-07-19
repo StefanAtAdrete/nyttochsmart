@@ -1,0 +1,10 @@
+uuid: 81718d09-39de-484b-ab77-d0f9f674f3ac
+langcode: sv
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.token
+label: Ersättningstecken
+targetEntityType: comment
+cache: true

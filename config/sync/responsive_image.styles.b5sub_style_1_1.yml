@@ -1,0 +1,39 @@
+uuid: c2d037bb-b6b9-4be8-ae52-e8da35b921d8
+langcode: sv
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.max_325x325
+    - image.style.medium
+  theme:
+    - b5subtheme
+id: b5sub_style_1_1
+label: 'B5sub style 1:1'
+image_style_mappings:
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width:768px) 768px, 50vw.'
+      sizes_image_styles:
+        - large
+    breakpoint_id: b5subtheme.screen.md-min
+    multiplier: 1x
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: ' (min-width:576px) 576px, 50vw'
+      sizes_image_styles:
+        - max_325x325
+    breakpoint_id: b5subtheme.screen.sm-min
+    multiplier: 1x
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: ' (min-width:0px) 0px, 100vw'
+      sizes_image_styles:
+        - medium
+    breakpoint_id: b5subtheme.screen.xs-max
+    multiplier: 1x
+breakpoint_group: b5subtheme.screen
+fallback_image_style: medium

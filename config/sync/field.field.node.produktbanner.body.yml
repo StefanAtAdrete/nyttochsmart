@@ -1,0 +1,24 @@
+uuid: afaaa6d6-e8f1-44a3-92b9-92b80fb7e841
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.produktbanner
+  module:
+    - text
+id: node.produktbanner.body
+field_name: body
+entity_type: node
+bundle: produktbanner
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,13 @@
+uuid: 9e623e0f-8d67-428e-a7e3-dd4b6ec61ffe
+langcode: sv
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: MKmZlPRk3OJKNcYdYxSeZGQUh7LMah6MRShfkzch4bk
+id: webform_submission_make_lock_action
+label: 'Lock submission'
+type: webform_submission
+plugin: webform_submission_make_lock_action
+configuration: {  }

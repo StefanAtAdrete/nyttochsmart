@@ -1,0 +1,10 @@
+uuid: fe75e736-592d-4aa5-b6d5-3473e569d585
+langcode: sv
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.token
+label: Ersättningstecken
+targetEntityType: menu_link_content
+cache: true

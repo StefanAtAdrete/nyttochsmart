@@ -1,0 +1,20 @@
+uuid: 32f2ef94-62f0-49d8-93bf-6497cc9bdc71
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - b5subtheme
+_core:
+  default_config_hash: O7B3JszRMFVYAbojw_YydZMTMwyFJpYuxnyyPyi7l3g
+id: b5subtheme_page_title
+theme: b5subtheme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Sidtitel
+  label_display: '0'
+  provider: core
+visibility: {  }
