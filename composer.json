@@ -60,6 +60,7 @@
         "drupal/scheduler": "^1.5",
         "drupal/schema_metatag": "^2.5",
         "drupal/taxonomy_menu": "^3.6",
+        "drupal/tb_megamenu": "^3.0@alpha",
         "drupal/token": "^1.11",
         "drupal/url_embed": "^2.0@alpha",
         "drupal/views_bootstrap": "^4.4",
