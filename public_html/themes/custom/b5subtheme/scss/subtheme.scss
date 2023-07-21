@@ -65,6 +65,17 @@ div#popup-text h2 {
     background: #8cc2ec;
 }
 
+.tbm {
+    background: #8cc2ec;
+}
+
+.tbm.tbm--mobile.tbm--mobile-show .tbm-collapse {
+    display: block;
+    width: 90vw;
+    margin-left: -75vw;
+}
+
+/*
 ul.nav.navbar-nav {
     display: inline-flex;
     flex-wrap: wrap;
@@ -77,6 +88,17 @@ ul.nav.navbar-nav {
     flex-direction: row;
     justify-content: flex-end;
 
+} */
+
+.navbar-brand a.site-title {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.tbm.tbm--mobile .tbm-button {
+    display: block;
+    background-color: #8cc2ec;
 }
 
 div#block-cartflyout {

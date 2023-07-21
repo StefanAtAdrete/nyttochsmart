@@ -65,17 +65,39 @@ div#popup-text h2, div#popup-text .h2 {
   background: #8cc2ec;
 }
 
-ul.nav.navbar-nav, .media-library-view--widget ul.navbar-nav.view-header {
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+.tbm {
+  background: #8cc2ec;
+}
+
+.tbm.tbm--mobile.tbm--mobile-show .tbm-collapse {
+  display: block;
+  width: 90vw;
+  margin-left: -75vw;
+}
+
+/*
+ul.nav.navbar-nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .region.region-usernav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+} */
+.navbar-brand a.site-title {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.tbm.tbm--mobile .tbm-button {
+  display: block;
+  background-color: #8cc2ec;
 }
 
 div#block-cartflyout {
