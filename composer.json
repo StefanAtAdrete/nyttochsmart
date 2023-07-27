@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
+        "drupal/addtoany": "^2.0",
         "drupal/admin_toolbar": "^3.3",
         "drupal/amazon_product_widget": "^1.5",
         "drupal/backup_migrate": "^5.0",
