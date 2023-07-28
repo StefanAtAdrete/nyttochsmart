@@ -23,7 +23,6 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '2f69d3914119f042cca9e44442d5ce95' => __DIR__ . '/../..' . '/public_html/core/includes/bootstrap.inc',
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
-        'c9d07b32a2e02bc0fc582d4f0c1b56cc' => __DIR__ . '/..' . '/laminas/laminas-servicemanager/src/autoload.php',
         '73321c0e02b4d45ae9c8366042d80de4' => __DIR__ . '/..' . '/arthurkushman/query-path/src/qp_functions.php',
         '09fc349b549513bf7f4291502426f919' => __DIR__ . '/..' . '/embed/embed/src/functions.php',
         'b067bc7112e384b61c701452d53a14a8' => __DIR__ . '/..' . '/mtdowling/jmespath.php/src/JmesPath.php',
@@ -111,7 +110,6 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         array (
             'League\\Container\\' => 17,
             'Laminas\\Stdlib\\' => 15,
-            'Laminas\\ServiceManager\\' => 23,
             'Laminas\\Feed\\' => 13,
             'Laminas\\Escaper\\' => 16,
         ),
@@ -396,10 +394,6 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         'Laminas\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-stdlib/src',
-        ),
-        'Laminas\\ServiceManager\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/laminas/laminas-servicemanager/src',
         ),
         'Laminas\\Feed\\' => 
         array (

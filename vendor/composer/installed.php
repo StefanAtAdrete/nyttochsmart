@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '473ed582ade85f0d609181e894d4f79ec1320bad',
+        'reference' => '7b36c0551e527128558ac9ef59e682e053af8393',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -163,12 +163,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'container-interop/container-interop' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '^1.2.0',
-            ),
-        ),
         'cweagans/composer-patches' => array(
             'pretty_version' => '1.7.3',
             'version' => '1.7.3.0',
@@ -197,9 +191,9 @@
             'dev_requirement' => false,
         ),
         'doctrine/collections' => array(
-            'pretty_version' => '2.1.2',
-            'version' => '2.1.2.0',
-            'reference' => 'db8cda536a034337f7dd63febecc713d4957f9ee',
+            'pretty_version' => '2.1.3',
+            'version' => '2.1.3.0',
+            'reference' => '3023e150f90a38843856147b58190aa8b46cc155',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/collections',
             'aliases' => array(),
@@ -910,7 +904,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '473ed582ade85f0d609181e894d4f79ec1320bad',
+            'reference' => '7b36c0551e527128558ac9ef59e682e053af8393',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1043,9 +1037,9 @@
             'dev_requirement' => false,
         ),
         'drupal/views_bulk_edit' => array(
-            'pretty_version' => '2.8.0',
-            'version' => '2.8.0.0',
-            'reference' => '8.x-2.8',
+            'pretty_version' => '2.9.0',
+            'version' => '2.9.0.0',
+            'reference' => '8.x-2.9',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../public_html/modules/contrib/views_bulk_edit',
             'aliases' => array(),
@@ -1184,20 +1178,11 @@
             'dev_requirement' => false,
         ),
         'laminas/laminas-feed' => array(
-            'pretty_version' => '2.20.0',
-            'version' => '2.20.0.0',
-            'reference' => '508ebef6e622f2f2ce3dd0559739ffd0dfa3b938',
+            'pretty_version' => '2.21.0',
+            'version' => '2.21.0.0',
+            'reference' => '52918789a417bc292ccd6fbb4b91bd78a65d50ab',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laminas/laminas-feed',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'laminas/laminas-servicemanager' => array(
-            'pretty_version' => '3.15.0',
-            'version' => '3.15.0.0',
-            'reference' => '65910ef6a8066b0369fab77fbec9e030be59c866',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../laminas/laminas-servicemanager',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -1390,9 +1375,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '^1.1 || ^2.0',
-                1 => '^1.0',
-                2 => '1.1|2.0',
+                0 => '^1.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(
@@ -1822,9 +1806,9 @@
             'dev_requirement' => false,
         ),
         'twbs/bootstrap' => array(
-            'pretty_version' => 'v5.3.0',
-            'version' => '5.3.0.0',
-            'reference' => '60098ac499d30aa50575b0b7137391c06ef25429',
+            'pretty_version' => 'v5.3.1',
+            'version' => '5.3.1.0',
+            'reference' => '2a1bf52b73fc9a97f6fef75aa1b29b3e9f0288b3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twbs/bootstrap',
             'aliases' => array(),
@@ -1842,7 +1826,7 @@
         'twitter/bootstrap' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.3.0',
+                0 => 'v5.3.1',
             ),
         ),
         'webflo/drupal-finder' => array(

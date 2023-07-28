@@ -60,7 +60,6 @@ return array(
     'ML\\JsonLD\\' => array($vendorDir . '/ml/json-ld'),
     'League\\Container\\' => array($vendorDir . '/league/container/src'),
     'Laminas\\Stdlib\\' => array($vendorDir . '/laminas/laminas-stdlib/src'),
-    'Laminas\\ServiceManager\\' => array($vendorDir . '/laminas/laminas-servicemanager/src'),
     'Laminas\\Feed\\' => array($vendorDir . '/laminas/laminas-feed/src'),
     'Laminas\\Escaper\\' => array($vendorDir . '/laminas/laminas-escaper/src'),
     'JmesPath\\' => array($vendorDir . '/mtdowling/jmespath.php/src'),
