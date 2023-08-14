@@ -85,6 +85,14 @@ function media_remote_theme($existing, $type, $theme, $path) {
         'token' => NULL,
       ],
     ],
+    'media_remote_arcgis' => [
+      'variables' => [
+        'url' => NULL,
+        'name' => NULL,
+        'width' => NULL,
+        'height' => NULL,
+      ],
+    ],
     'media_remote_box' => [
       'variables' => [
         'hash' => NULL,

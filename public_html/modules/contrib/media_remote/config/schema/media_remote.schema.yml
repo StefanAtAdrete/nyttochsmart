@@ -10,6 +10,21 @@ field.formatter.settings.media_remote_apple_podcasts:
       type: string
       label: 'Formatter class name'
 
+field.formatter.settings.media_remote_arcgis:
+  type: mapping
+  label: 'ArcGIS display format settings'
+  mapping:
+    formatter_class:
+      type: string
+      label: 'Formatter class name'
+    width:
+      type: string
+      label: 'Iframe width'
+    height:
+      type: string
+      label: 'Iframe height'
+
+
 field.formatter.settings.media_remote_box:
   type: mapping
   label: 'Box display format settings'
