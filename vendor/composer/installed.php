@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2fd4fb0597753947a75db705002f4cd5687248a0',
+        'reference' => '677d9fb1395a09ceac321d9ac423ab7e4a34f0b6',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -802,6 +802,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/jsonapi_extras' => array(
+            'pretty_version' => '3.23.0',
+            'version' => '3.23.0.0',
+            'reference' => '8.x-3.23',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../public_html/modules/contrib/jsonapi_extras',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/layout_builder_component_attributes' => array(
             'pretty_version' => '2.1.1',
             'version' => '2.1.1.0',
@@ -883,6 +892,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/openai' => array(
+            'pretty_version' => '1.0.0-alpha14',
+            'version' => '1.0.0.0-alpha14',
+            'reference' => '1.0.0-alpha14',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../public_html/modules/contrib/openai',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/pathauto' => array(
             'pretty_version' => '1.11.0',
             'version' => '1.11.0.0',
@@ -904,7 +922,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2fd4fb0597753947a75db705002f4cd5687248a0',
+            'reference' => '677d9fb1395a09ceac321d9ac423ab7e4a34f0b6',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1099,6 +1117,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'e0ipso/shaper' => array(
+            'pretty_version' => '1.2.4',
+            'version' => '1.2.4.0',
+            'reference' => '7d73018ec4fe8de9730dfe755067cc02460e1a38',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../e0ipso/shaper',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'egulias/email-validator' => array(
             'pretty_version' => '4.0.1',
             'version' => '4.0.1.0',
@@ -1165,6 +1192,15 @@
             'reference' => 'a0b3a03e8e8005257fbc408ce5f0fd0a8274dc7f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'justinrainbow/json-schema' => array(
+            'pretty_version' => '5.2.12',
+            'version' => '5.2.12.0',
+            'reference' => 'ad87d5a5ca981228e0e205c2bc7dfb8e24559b60',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../justinrainbow/json-schema',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -1267,6 +1303,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'openai-php/client' => array(
+            'pretty_version' => 'v0.5.3',
+            'version' => '0.5.3.0',
+            'reference' => 'a0ca38da78f7420a0b381e4274e416abbf6e563d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../openai-php/client',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'orno/di' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1333,6 +1378,36 @@
             'reference' => 'baaf154ae7d521ebeee5e89105f5b12b0f234597',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phootwork/lang',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-http/async-client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'php-http/client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'php-http/discovery' => array(
+            'pretty_version' => '1.19.1',
+            'version' => '1.19.1.0',
+            'reference' => '57f3de01d32085fea20865f9b16fb0e69347c39e',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../php-http/discovery',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-http/multipart-stream-builder' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => 'f5938fd135d9fa442cc297dc98481805acfe2b6a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-http/multipart-stream-builder',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -1407,6 +1482,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-factory' => array(
@@ -1422,6 +1498,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/http-message' => array(
@@ -1437,6 +1514,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
+                1 => '*',
             ),
         ),
         'psr/log' => array(

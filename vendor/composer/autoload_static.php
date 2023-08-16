@@ -26,6 +26,7 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         '73321c0e02b4d45ae9c8366042d80de4' => __DIR__ . '/..' . '/arthurkushman/query-path/src/qp_functions.php',
         '09fc349b549513bf7f4291502426f919' => __DIR__ . '/..' . '/embed/embed/src/functions.php',
         'b067bc7112e384b61c701452d53a14a8' => __DIR__ . '/..' . '/mtdowling/jmespath.php/src/JmesPath.php',
+        '61ba3e92ef91a7a0f1cc260ebd9290e4' => __DIR__ . '/..' . '/openai-php/client/src/OpenAI.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
     );
 
@@ -77,6 +78,8 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
             'Symfony\\Component\\DependencyInjection\\' => 38,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
+            'Shaper\\Tests\\' => 13,
+            'Shaper\\' => 7,
             'SelfUpdate\\' => 11,
         ),
         'R' => 
@@ -100,6 +103,10 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
             'PhpParser\\' => 10,
             'Peast\\' => 6,
         ),
+        'O' => 
+        array (
+            'OpenAI\\' => 7,
+        ),
         'M' => 
         array (
             'Masterminds\\' => 12,
@@ -114,10 +121,13 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         ),
         'J' => 
         array (
+            'JsonSchema\\' => 11,
             'JmesPath\\' => 9,
         ),
         'H' => 
         array (
+            'Http\\Message\\MultipartStream\\' => 29,
+            'Http\\Discovery\\' => 15,
             'HtmlParser\\' => 11,
         ),
         'G' => 
@@ -321,6 +331,14 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
         ),
+        'Shaper\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/e0ipso/shaper/tests/src',
+        ),
+        'Shaper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/e0ipso/shaper/src',
+        ),
         'SelfUpdate\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/self-update/src',
@@ -374,6 +392,10 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         array (
             0 => __DIR__ . '/..' . '/mck89/peast/lib/Peast',
         ),
+        'OpenAI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/openai-php/client/src',
+        ),
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
@@ -398,9 +420,21 @@ class ComposerStaticInit6caa12a4b8ffe45059f5d2db5c386f54
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
         ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
+        ),
         'JmesPath\\' => 
         array (
             0 => __DIR__ . '/..' . '/mtdowling/jmespath.php/src',
+        ),
+        'Http\\Message\\MultipartStream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/multipart-stream-builder/src',
+        ),
+        'Http\\Discovery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/discovery/src',
         ),
         'HtmlParser\\' => 
         array (

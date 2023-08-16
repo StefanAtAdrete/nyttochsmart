@@ -25,5 +25,6 @@ return array(
     '73321c0e02b4d45ae9c8366042d80de4' => $vendorDir . '/arthurkushman/query-path/src/qp_functions.php',
     '09fc349b549513bf7f4291502426f919' => $vendorDir . '/embed/embed/src/functions.php',
     'b067bc7112e384b61c701452d53a14a8' => $vendorDir . '/mtdowling/jmespath.php/src/JmesPath.php',
+    '61ba3e92ef91a7a0f1cc260ebd9290e4' => $vendorDir . '/openai-php/client/src/OpenAI.php',
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
 );
