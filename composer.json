@@ -60,6 +60,7 @@
         "drupal/redirect": "^1.8",
         "drupal/remote_stream_wrapper": "^2.0",
         "drupal/responsive_tables_filter": "^1.17",
+        "drupal/restui": "^1.21",
         "drupal/scheduler": "^1.5",
         "drupal/schema_metatag": "^2.5",
         "drupal/simple_sitemap": "^4.1",
