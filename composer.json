@@ -160,6 +160,9 @@
       },
       "drupal/bootstrap_layout_builder": {
         "addtoany-entity-cannot-have-a-uri-as-it-does-not-have-an-id-3372598-1": "https://www.drupal.org/files/issues/2023-07-05/addtoany-entity-cannot-have-a-uri-as-it-does-not-have-an-id-3372598-1_0.patch"
+      },
+      "drupal/jsonapi_extras": {
+        "https://www.drupal.org/project/jsonapi_extras/issues/3331874": "https://www.drupal.org/files/issues/2023-04-17/jsonapi_extras_3331874_2.patch"
       }
 }
 }
