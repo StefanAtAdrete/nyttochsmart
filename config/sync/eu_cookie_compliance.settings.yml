@@ -8,7 +8,7 @@ popup_scrolling_confirmation: false
 eu_countries: {  }
 eu_only: false
 eu_only_js: false
-popup_position: true
+popup_position: false
 fixed_top_position: true
 popup_info:
   value: "<h2>Vi använder kakor (cookies) på denna sajt.</h2>\r\n\r\n<p>Genom att klicka på \"acceptera\"-knappen tillåter du oss att göra det.</p>\r\n"
@@ -46,7 +46,7 @@ set_cookie_session_zero_on_disagree: 1
 cookie_lifetime: 100
 use_mobile_message: false
 use_bare_css: false
-use_olivero_css: true
+use_olivero_css: false
 disagree_do_not_show_popup: false
 reload_page: true
 reload_options: 0
@@ -70,7 +70,7 @@ save_preferences_button_label: 'Save preferences'
 accept_all_categories_button_label: 'Accept all cookies'
 enable_save_preferences_button: true
 domain_all_sites: false
-settings_tab_enabled: true
+settings_tab_enabled: false
 containing_element: body
 cookie_policy_version: 1.0.0
 cookie_value_disagreed: '0'

@@ -5,12 +5,23 @@ dependencies:
   config:
     - image.style.large
     - image.style.max_325x325
+    - image.style.max_650x650
     - image.style.medium
   theme:
     - b5subtheme
 id: b5sub_style_1_1
 label: 'B5sub style 1:1'
 image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: max_650x650
+    breakpoint_id: b5subtheme.screen.xl-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: max_650x650
+    breakpoint_id: b5subtheme.screen.lg-min
+    multiplier: 1x
   -
     image_mapping_type: sizes
     image_mapping:
@@ -30,7 +41,7 @@ image_style_mappings:
   -
     image_mapping_type: sizes
     image_mapping:
-      sizes: ' (min-width:0px) 0px, 100vw'
+      sizes: ' (min-width:0px) 575px, 100vw'
       sizes_image_styles:
         - medium
     breakpoint_id: b5subtheme.screen.xs-max

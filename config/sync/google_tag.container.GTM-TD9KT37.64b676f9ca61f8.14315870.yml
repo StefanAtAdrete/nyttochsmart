@@ -24,12 +24,12 @@ dimensions_metrics:
 conditions: {  }
 events:
   custom: {  }
+  sign_up:
+    method: CMS
+  search: {  }
   generate_lead:
     value: ''
     currency: ''
   login:
-    method: CMS
-  search: {  }
-  sign_up:
     method: CMS
   webform_purchase: {  }

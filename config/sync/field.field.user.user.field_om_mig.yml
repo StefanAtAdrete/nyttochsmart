@@ -1,0 +1,30 @@
+uuid: 4c103962-37f2-48ad-a93e-c3f713a011c3
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_om_mig
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.plain_text
+    - filter.format.restricted_html
+  module:
+    - text
+    - user
+id: user.user.field_om_mig
+field_name: field_om_mig
+entity_type: user
+bundle: user
+label: 'Om mig'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - restricted_html
+    - full_html
+    - plain_text
+field_type: text_long

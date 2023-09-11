@@ -19,6 +19,17 @@ settings:
             - Italic
             - Underline
             - Format
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - RemoveFormat
+            - Superscript
+            - Subscript
+            - Outdent
+            - Indent
+            - Styles
+            - HorizontalRule
         -
           name: Länkar
           items:
@@ -42,7 +53,14 @@ settings:
             - node
             - url
             - Table
-  plugins: {  }
+        -
+          name: Special
+          items:
+            - ShowBlocks
+            - SpecialChar
+  plugins:
+    stylescombo:
+      styles: div.colorsection|Section
 image_upload:
   status: true
   scheme: public

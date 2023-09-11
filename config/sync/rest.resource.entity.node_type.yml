@@ -1,0 +1,20 @@
+uuid: 95acb675-5eae-4661-8ae9-bd13ae7e045a
+langcode: sv
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - node
+    - serialization
+    - user
+id: entity.node_type
+plugin_id: 'entity:node_type'
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - basic_auth
+      - cookie

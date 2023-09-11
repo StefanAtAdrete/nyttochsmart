@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.article.field_media
     - field.field.node.article.field_meta
     - field.field.node.article.field_product_referens
+    - field.field.node.article.field_similar_articles
     - field.field.node.article.field_tags
     - field.field.node.article.field_term
     - node.type.article
@@ -76,6 +77,11 @@ targetEntityType: node
 bundle: article
 mode: teaser
 content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
   body:
     type: text_summary_or_trimmed
     label: hidden
@@ -102,5 +108,6 @@ hidden:
   field_media: true
   field_meta: true
   field_product_referens: true
+  field_similar_articles: true
   field_term: true
   langcode: true

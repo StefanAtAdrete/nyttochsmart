@@ -230,7 +230,7 @@ display:
           admin_label: ''
           entity_type: node
           plugin_id: field
-          label: 'Moderation state'
+          label: Modereringsstatus
           exclude: false
           alter:
             alter_text: false
@@ -605,7 +605,7 @@ display:
           exposed: true
           expose:
             operator_id: moderation_state_op
-            label: 'Moderation state'
+            label: Modereringsstatus
             description: ''
             use_operator: false
             operator: moderation_state_op

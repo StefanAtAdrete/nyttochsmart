@@ -8,4 +8,13 @@ id: front
 label: Startsida
 tags:
   canonical_url: '[site:url]'
+  fb_pages: 'https://www.facebook.com/nyttochsmart'
+  og_description: 'Startsida för Nytt och smart. En sajt om nya tekniska prylar med tonvikt på LED och nya roliga prylar för hemmet och trädgården.'
+  og_site_name: '[site:name]'
+  og_title: '[current-page:title]'
+  og_url: '[site:url]'
+  schema_web_page_description: Startsida
+  schema_web_page_has_part: 'a:2:{s:5:"@type";s:21:"SiteNavigationElement";s:19:"isAccessibleForFree";s:4:"True";}'
+  schema_web_page_id: '[site:url]'
+  schema_web_page_type: WebPage
   shortlink: '[site:url]'

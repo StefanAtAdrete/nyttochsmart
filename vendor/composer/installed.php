@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd9727a9a094d499478ddb2bba0957b3029d51f32',
+        'reference' => 'bd15ac76d2184dcd31e49cdd46d8fad30211aae3',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -748,6 +748,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/hal' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => '2.0.1',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../public_html/modules/contrib/hal',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/honeypot' => array(
             'pretty_version' => '2.1.2',
             'version' => '2.1.2.0',
@@ -922,7 +931,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd9727a9a094d499478ddb2bba0957b3029d51f32',
+            'reference' => 'bd15ac76d2184dcd31e49cdd46d8fad30211aae3',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

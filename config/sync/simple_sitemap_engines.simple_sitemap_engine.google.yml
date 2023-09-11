@@ -1,0 +1,12 @@
+uuid: 86ed893c-773e-4e0e-afbf-2c2300b0dfde
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KGJcRMzAuyKuQ5btKIxMYthx4yk2Oa3ciVDmzxaGKLQ
+id: google
+label: Google
+url: 'https://www.google.com/ping?sitemap=[sitemap]'
+index_now_url: null
+sitemap_variants:
+  index: index

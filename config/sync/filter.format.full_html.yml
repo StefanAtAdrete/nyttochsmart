@@ -52,7 +52,7 @@ filters:
     status: false
     weight: -10
     settings:
-      allowed_html: '<drupal-url data-*> <strong> <em> <a href> <ul> <li> <ol> <blockquote> <img src alt data-entity-type data-entity-uuid data-align data-caption> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button data-langcode alt title> <p> <h1> <h2> <h3> <h4> <h5> <h6> <pre> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <u> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr>'
+      allowed_html: '<drupal-url data-*> <strong> <em> <a href> <ul> <li> <ol> <blockquote> <img src alt data-entity-type data-entity-uuid data-align data-caption> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button data-langcode alt title> <p> <h1> <h2> <h3> <h4> <h5> <h6> <pre> <drupal-media data-entity-type data-entity-uuid data-view-mode data-align data-caption alt title> <u> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <sup> <sub> <div> <hr>'
       filter_html_help: true
       filter_html_nofollow: false
   media_embed:
@@ -61,7 +61,7 @@ filters:
     status: true
     weight: 100
     settings:
-      default_view_mode: default
+      default_view_mode: responsive
       allowed_view_modes:
         default: default
         full: full

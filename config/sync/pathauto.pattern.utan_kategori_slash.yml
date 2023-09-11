@@ -1,0 +1,24 @@
+uuid: 1be3f8ed-078f-4921-90ed-f6ac4245f014
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+id: utan_kategori_slash
+label: 'Utan kategori slash'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  eb7b63da-7c32-4ac0-8609-288ce7f62948:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: eb7b63da-7c32-4ac0-8609-288ce7f62948
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+      produktbanner: produktbanner
+selection_logic: and
+weight: -5
+relationships: {  }

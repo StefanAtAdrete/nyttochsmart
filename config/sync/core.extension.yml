@@ -3,6 +3,7 @@ _core:
 langcode: sv
 module:
   action: 0
+  addtoany: 0
   admin_toolbar: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
@@ -29,8 +30,6 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
-  devel: 0
-  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   embed: 0
@@ -89,8 +88,12 @@ module:
   remote_stream_wrapper: 0
   responsive_image: 0
   rest: 0
+  restui: 0
   scheduler: 0
   schema_article: 0
+  schema_how_to: 0
+  schema_image_object: 0
+  schema_item_list: 0
   schema_metatag: 0
   schema_product: 0
   schema_web_page: 0
@@ -99,6 +102,9 @@ module:
   serialization: 0
   settings_tray: 0
   shortcut: 0
+  simple_sitemap: 0
+  simple_sitemap_engines: 0
+  simple_sitemap_views: 0
   statistics: 0
   styles_api: 0
   syslog: 0
@@ -106,6 +112,7 @@ module:
   tamper: 0
   taxonomy: 0
   taxonomy_menu: 0
+  tb_megamenu: 0
   text: 0
   token: 0
   toolbar: 0
@@ -123,12 +130,9 @@ module:
   webform_schema: 0
   webform_ui: 0
   workflows: 0
-  xmlsitemap_custom: 0
-  xmlsitemap_engines: 0
   extlink: 1
   pathauto: 1
   webform_bootstrap: 1
-  xmlsitemap: 1
   content_translation: 10
   views: 10
   standard: 1000

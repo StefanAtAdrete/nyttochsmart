@@ -9,12 +9,14 @@ dependencies:
     - field.field.node.article.field_media
     - field.field.node.article.field_meta
     - field.field.node.article.field_product_referens
+    - field.field.node.article.field_similar_articles
     - field.field.node.article.field_tags
     - field.field.node.article.field_term
     - node.type.article
-    - views.view.produktreferens_dynamisk
+    - views.view.produktblock
     - views.view.views_slideshow
   module:
+    - addtoany
     - comment
     - layout_builder
     - metatag
@@ -49,12 +51,12 @@ third_party_settings:
                 label: hidden
                 settings: {  }
                 third_party_settings: {  }
-            weight: 3
+            weight: 4
             additional:
               component_attributes:
                 block_attributes:
                   id: ''
-                  class: 'mb-4 p-4'
+                  class: 'mb-4 pe-4'
                   style: ''
                   data: ''
                 block_title_attributes:
@@ -80,37 +82,6 @@ third_party_settings:
               items_per_page: none
             weight: 2
             additional: {  }
-          b243ac24-d975-4b4c-bc93-f615fa024a30:
-            uuid: b243ac24-d975-4b4c-bc93-f615fa024a30
-            region: second
-            configuration:
-              id: 'views_block:produktreferens_dynamisk-block_1'
-              label: Produktförslag
-              label_display: visible
-              provider: views
-              context_mapping: {  }
-              views_label: Produktförslag
-              items_per_page: none
-            weight: 0
-            additional:
-              layout_builder_styles_style:
-                block_grey_bg: 0
-              component_attributes:
-                block_attributes:
-                  id: embeded
-                  class: ps-4
-                  style: ''
-                  data: ''
-                block_title_attributes:
-                  id: ''
-                  class: ''
-                  style: ''
-                  data: ''
-                block_content_attributes:
-                  id: ''
-                  class: w-100
-                  style: ''
-                  data: ''
           f4090ab1-befa-444e-93df-f072b45de348:
             uuid: f4090ab1-befa-444e-93df-f072b45de348
             region: second
@@ -125,12 +96,12 @@ third_party_settings:
                 settings:
                   link: true
                 third_party_settings: {  }
-            weight: 1
+            weight: 2
             additional:
               component_attributes:
                 block_attributes:
-                  id: ''
-                  class: ps-4
+                  id: embeded
+                  class: 'bg-secondary m-4 p-2 text-dark bg-opacity-10 rounded'
                   style: ''
                   data: ''
                 block_title_attributes:
@@ -160,14 +131,82 @@ third_party_settings:
                 settings:
                   link: true
                 third_party_settings: {  }
-            weight: 2
+            weight: 3
             additional:
               layout_builder_styles_style:
                 block_grey_bg: 0
               component_attributes:
                 block_attributes:
                   id: ''
-                  class: ps-4
+                  class: 'bg-secondary m-4 p-2 text-dark bg-opacity-10 rounded'
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          848b1362-4121-4fdd-b77c-de10b464c90c:
+            uuid: 848b1362-4121-4fdd-b77c-de10b464c90c
+            region: second
+            configuration:
+              id: 'views_block:produktblock-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 1
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: embeded
+                  class: 'ms-4 me-4 mb-4 bg-secondary p-2 text-dark bg-opacity-10 rounded'
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          8a9673d8-69c8-4f44-9706-30db277e0f4b:
+            uuid: 8a9673d8-69c8-4f44-9706-30db277e0f4b
+            region: second
+            configuration:
+              id: 'field_block:node:article:field_similar_articles'
+              label: 'Liknande artiklar'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 7
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: 'm-4 bg-secondary p-2 text-dark bg-opacity-10 rounded'
                   style: ''
                   data: ''
                 block_title_attributes:
@@ -188,12 +227,82 @@ third_party_settings:
               label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-            weight: 3
+            weight: 8
             additional:
               component_attributes:
                 block_attributes:
                   id: embeded
-                  class: ps-4
+                  class: 'bg-secondary m-4 p-2 text-dark bg-opacity-10 rounded'
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          534ba566-47bc-483d-87f1-a1d3aced7497:
+            uuid: 534ba566-47bc-483d-87f1-a1d3aced7497
+            region: second
+            configuration:
+              id: addtoany_block
+              label: 'AddToAny share buttons'
+              label_display: '0'
+              provider: addtoany
+              context_mapping: {  }
+              link_url: ''
+              link_title: ''
+              buttons_size: ''
+              addtoany_html: ''
+            weight: 10
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: m-4
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          f0a1a7d5-4eb4-41a8-bccb-b197dbb46947:
+            uuid: f0a1a7d5-4eb4-41a8-bccb-b197dbb46947
+            region: first
+            configuration:
+              id: 'field_block:node:article:uid'
+              label: 'Författad av'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 5
+            additional:
+              layout_builder_styles_style:
+                block_grey_bg: 0
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: 'bg-secondary m-4 p-2 text-dark bg-opacity-10 rounded'
                   style: ''
                   data: ''
                 block_title_attributes:
@@ -214,6 +323,11 @@ targetEntityType: node
 bundle: article
 mode: default
 content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: first
   body:
     type: text_default
     label: hidden
@@ -253,6 +367,14 @@ content:
       link: true
     third_party_settings: {  }
     weight: 113
+    region: first
+  field_similar_articles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 115
     region: first
   field_tags:
     type: entity_reference_label

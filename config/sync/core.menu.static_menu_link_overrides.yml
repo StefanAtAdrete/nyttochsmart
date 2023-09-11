@@ -9,14 +9,110 @@ definitions:
     expanded: false
     enabled: true
   standard__front_page:
-    enabled: false
+    weight: -50
     menu_name: main
     parent: ''
     expanded: false
-    weight: 0
+    enabled: false
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__14':
-    weight: -50
+    enabled: false
+    menu_name: main
     parent: 'menu_link_content:b730c540-9435-4a1e-b18e-bc0cb4cc0a35'
+    expanded: false
+    weight: -50
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__16':
+    enabled: false
+    menu_name: main
+    parent: 'menu_link_content:ed52e1fa-7bf2-469a-89dc-99eb0f15b289'
+    weight: -50
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__17':
+    weight: -50
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.16'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__19':
+    weight: -44
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__21':
+    enabled: false
+    menu_name: main
+    parent: 'menu_link_content:b730c540-9435-4a1e-b18e-bc0cb4cc0a35'
+    weight: -49
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__20':
+    weight: -43
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__23':
+    weight: -47
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__24':
+    weight: -50
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__25':
+    weight: -49
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__28':
+    weight: -49
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.24'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__26':
+    weight: -47
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__29':
+    weight: -45
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__32':
+    weight: -44
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__35':
+    weight: -50
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.24'
     menu_name: main
     enabled: true
     expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__36':
+    weight: -48
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.24'
+    menu_name: main
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__34':
+    weight: -48
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkter__33':
+    weight: -46
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkter.23'
+    expanded: false
+    enabled: true

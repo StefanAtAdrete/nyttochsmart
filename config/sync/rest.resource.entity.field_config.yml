@@ -1,0 +1,21 @@
+uuid: b157e20b-a597-4a80-803b-db772554f529
+langcode: sv
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - field
+    - serialization
+    - user
+id: entity.field_config
+plugin_id: 'entity:field_config'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+    - xml
+  authentication:
+    - basic_auth
+    - cookie

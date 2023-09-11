@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.article.field_media
     - field.field.node.article.field_meta
     - field.field.node.article.field_product_referens
+    - field.field.node.article.field_similar_articles
     - field.field.node.article.field_tags
     - field.field.node.article.field_term
     - node.type.article
@@ -30,6 +31,7 @@ hidden:
   field_media: true
   field_meta: true
   field_product_referens: true
+  field_similar_articles: true
   field_tags: true
   field_term: true
   langcode: true

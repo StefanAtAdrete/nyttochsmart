@@ -53,7 +53,7 @@ type_settings:
       to: draft
       weight: 0
     publish:
-      label: Publish
+      label: Publicera
       from:
         - draft
         - published

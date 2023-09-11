@@ -1,0 +1,21 @@
+uuid: c74aefce-6d27-4561-a68a-6dd9b478129a
+langcode: sv
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - serialization
+    - system
+    - user
+id: entity.action
+plugin_id: 'entity:action'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+    - xml
+  authentication:
+    - basic_auth
+    - cookie
