@@ -1,5 +1,11 @@
 @charset "UTF-8";
-/*Blogging */
+/* main styling */
+.card, .media-library-selection .media-library-item.media-library-item--grid, .view-media-library .media-library-views-form .media-library-item--grid .views-field-rendered-entity {
+  background-color: #efefef;
+  border: 0;
+}
+
+/*Blog styling*/
 .colorsection {
   background-color: #ffffff;
   padding: 5%;
